@@ -2,3 +2,4 @@ bower_components/
 node_modules/
 public/uploads/
 .git
+config.bat
