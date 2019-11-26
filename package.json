@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha",
-    "start": "node server.js",
+    "start": "node init && node server.js",
     "postinstall": "node -e \"try { require('fs').symlinkSync(require('path').resolve('node_modules/@bower_components'), 'bower_components', 'junction') } catch (e) { }\""
   },
   "author": "Hermes Romero",
@@ -28,7 +28,7 @@
     "express-session": "^1.15.6",
     "faker": "^4.1.0",
     "i18next": "^11.9.0",
-    "js-yaml": "^3.12.0",
+    "js-yaml": "^3.13.1",
     "json-beautify": "^1.0.1",
     "karma": "^4.0.0",
     "karma-chrome-launcher": "^2.2.0",
