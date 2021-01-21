@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha",
-    "start": "node server.js",
+    "start": "node init && node server.js",
     "postinstall": "node -e \"try { require('fs').symlinkSync(require('path').resolve('node_modules/@bower_components'), 'bower_components', 'junction') } catch (e) { }\""
   },
   "author": "Hermes Romero",
@@ -52,7 +52,7 @@
     "password-generator": "^2.2.0",
     "pg": "^7.10.0",
     "rebuild": "^0.1.2",
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.4.0",
     "tedious": "^6.1.1",
     "thenby": "^1.3.0"
   },
